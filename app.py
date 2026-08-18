@@ -115,7 +115,7 @@ formatted_agent_chain = (
 # --- 3. FastAPI App ---
 ##Need To Code
 app = FastAPI(title="Indian Weather and Cinema Agent")
-add_routs(app,
+add_routes(app,
           formatted_agent_chain,
           path="/agent",
           playground_type="dafalt")
